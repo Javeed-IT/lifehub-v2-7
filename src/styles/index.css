@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+.card { @apply rounded-2xl p-5 shadow-lg shadow-slate-900/40 bg-gradient-to-br from-slate-800 to-slate-900; }
+.btn { @apply px-3 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 transition font-medium; }
+.badge { @apply inline-flex items-center gap-2 rounded-full px-3 py-1 text-sm bg-slate-800 border border-slate-700; }
+.progress { @apply h-3 rounded-full bg-slate-800 overflow-hidden; }
+.progress > span { @apply block h-full bg-emerald-500; }
+input, select, textarea { @apply bg-slate-800 text-slate-100 placeholder-slate-400; }
+nav .tab { @apply px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700; }
+nav .tab-active { @apply bg-brand-600 hover:bg-brand-700; }
